@@ -24,9 +24,9 @@ public class Funcionario extends Pessoa{
 
     @Override
     public String toString() {
-        return "\nNome: " + super.getNome() + "\nId: " + super.getId() + "\nGênero: " +   super.getGenero().getTexto() + "\nCPF: " + cpf + "\nRG: " + rg +
-                "\nData de Nascimento: " + getDataNasc() + "\nIdade: " + getIdade() + "\nSalário: " + getSalario() + "\n_ENDEREÇO_\n" + 
-                "\nLogradouro: " + this.getEndereco().getLogradouro()
+        return ""\nFUNCIONÁRIO" + "\nNome: " + super.getNome() + "\nId: " + super.getId() + "\nGênero: " +   super.getGenero().getTexto() + "\nCPF: " + cpf + "\nRG: " + rg +
+                "\nData de Nascimento: " + getDataNasc() + "\nIdade: " + getIdade() + "\nSalário: " + getSalario() + "\nENDEREÇO\n" + 
+                "Logradouro: " + this.getEndereco().getLogradouro()
                 + "\nCidade: " + this.getEndereco().getCidade() + "\nUF: " + this.getEndereco().getUf() + 
                 "\nNúmero: " + this.getEndereco().getNumero() 
                 + "\nComplemento: " + this.getEndereco().getComplemento() +
