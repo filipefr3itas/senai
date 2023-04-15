@@ -28,7 +28,7 @@ public class Juridica extends Pessoa{
     public String toString() {
         return "\nPESSOA JÚRIDICA" + "\nNome: " + super.nome + "\nId: " +super.id + "\nGenero: " + super.genero.texto + "\nCNPJ: " + cnpj +
                 "\nInscrição Estadual: "+ inscricaoEstadual + "\nValor do contrato: " + getValorContrato() + "\nData de ínicio: " + getDataInicio() +
-                "\nData de término: " + getDataTermino() + "\nENDEREÇO: " + "\nLogradouro: " + this.getEndereco().getLogradouro()
+                "\nData de término: " + getDataTermino() + "\nENDEREÇO: " + "Logradouro: " + this.getEndereco().getLogradouro()
                 + "\nCidade: " + this.getEndereco().getCidade() + "\nUF: " + this.getEndereco().getUf() + 
                 "\nNúmero: " + this.getEndereco().getNumero() 
                 + "\nComplemento: " + this.getEndereco().getComplemento() +
